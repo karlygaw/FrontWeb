@@ -1,0 +1,53 @@
+/* img{
+  display: block;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+} */
+
+/* styles.css */
+
+/* Ensure the entire body uses flexbox to center its content */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the body takes the full viewport height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Center the content inside the main element */
+  #main {
+    text-align: center;
+  }
+  
+  /* Ensure images scale properly and are centered */
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Adjust the image container to center the caption */
+  #img-div {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Add some basic styling for the main title */
+  #title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Add some basic styling for the tribute-info section */
+  #tribute-info {
+    margin-top: 1em;
+    text-align: left; /* For better readability of the timeline */
+  }
+  
+  
+  
