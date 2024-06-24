@@ -1,0 +1,8 @@
+@media (min-width: 600px) {
+    #navbar {
+        width: 250px;
+    }
+    #content {
+        margin-left: 270px;
+    }
+}
